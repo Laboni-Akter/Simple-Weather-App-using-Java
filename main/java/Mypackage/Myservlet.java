@@ -49,7 +49,7 @@ public class Myservlet extends HttpServlet {
 		// TODO Auto-generated method stub
 //		doGet(request, response);
 		String city = request.getParameter("city");
-		String apikey = "c8e652b824bd6dd8ebe2bf7d063d5400";
+		String apikey = "Enter your api key";
 		String apiurl = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+apikey;
 		try {
 		URL url = new URL(apiurl);
